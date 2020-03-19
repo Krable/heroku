@@ -50,7 +50,7 @@ app.get('/private', passport.authenticate('jwt', { session: false }), (req, res)
   res.send('Hello ' + req.user.email)
 })
 
-app.post('/login', urlEncodedParser, (req, res) => {
+app.post('/login', (req, res) => {
   const email = req.body.email
   const password = req.body.password
   console.log(req.body);
