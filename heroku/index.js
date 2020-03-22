@@ -18,6 +18,7 @@ const configuration = {
         'cache-control': 'no-cache',
         'x-apikey': '4ee56fd28c586c7ce5e76b325264f34283e6a',
         'content-type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
         'ObjectID' : '5df8db1291eb7c5a0001196b' 
 }
 
