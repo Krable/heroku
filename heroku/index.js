@@ -31,7 +31,7 @@ const jwtOptions = {
 }
 
 const jwtStrategy = new JwtStrategy(jwtOptions, function(payload, next) {
-  
+  console.log(payload);
   const user = users.find(user => user.email === payload.user)
 
   if (user) {
