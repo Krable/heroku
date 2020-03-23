@@ -11,7 +11,7 @@ Prerequisites
 Installing
 
 -Dans le dossier contenant le package.json, utiliser cette command: npm install
--Puis node index.js
+-Puis cette command: node index.js
 
 Authors
 
