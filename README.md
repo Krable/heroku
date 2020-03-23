@@ -3,6 +3,8 @@
 Information
 
 -Ce projet est déployé sur un serveur heroku.
+-Vous pouvez visualiser le fonctionnement du serveur heroku avec une application Vue.j
+-https://codesandbox.io/s/projetnodevuejslucaslemoineetmickaeldonoso-bjj15
 
 Prerequisites
 
